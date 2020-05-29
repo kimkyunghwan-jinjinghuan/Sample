@@ -12,7 +12,7 @@ public class Baseball {
 		Number n = new Number();
 		int number = n.get();
 		
-		
+		// 2, 3
 		//숫자 분리해내기. 216 -> 2, 1, 6
 		int baseball3 = number % 10;
 		int baseball2 = (number / 10) % 10;  // (number/10)이면 21이 남고 거기에 %연산해주면 1이 떨어지고
