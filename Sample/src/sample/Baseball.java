@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Baseball {
 	public static void main(String[] args) {
-		Number n = new Number();
+		Network n = new Network();
 		int number = n.get();
 		
 		// 2, 3
@@ -87,7 +87,7 @@ public class Baseball {
 	}
 }
 
-class Number {
+class Number { //네트워크유틸, 서버와 통신하게 해주는 기능을. 
 	public int get() {
 		int number = 0;
 		try {
